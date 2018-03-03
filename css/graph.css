@@ -26,7 +26,6 @@ img {
     vertical-align: middle
 }
 
-
 @media only screen {
     .columns {
         position: relative;
@@ -689,7 +688,8 @@ html {
     }
     .press-release-template h1 {
         font-size: 24px;
-        padding: 59px 0 31px
+        padding: 59px 0 31px;
+
     }
     .press-release-template .columns[class*="-4"] {
         padding-bottom: 60px;
@@ -3297,7 +3297,8 @@ button:focus,
     float: left;
     position: relative;
     min-height: 320px;
-    width: 100%
+    width: 100%;
+
 }
 .ps_skills--column:nth-child(1) {
     opacity: 0;
@@ -3309,6 +3310,7 @@ button:focus,
     transform: translateY(50px);
     transition: all .7s ease
 }
+
 @media only screen and (min-width:600px) {
     .ps_skills--column {
         padding: 0 50px
@@ -3322,14 +3324,14 @@ button:focus,
 }
 .ps_skills--container {
     background: -moz-linear-gradient(-25deg, #5b3c72 0%, #1488a5 100%);
-    background: -webkit-linear-gradient(-25deg, #5b3c72 0%, #1488a5 100%);
-    background: linear-gradient(115deg, #5b3c72 0%, #1488a5 100%);
+    background: -webkit-linear-gradient(-25deg, #4eadc9 0%, #0e748d 100%);
+    background: linear-gradient(115deg, #1c8dae 0%, #00c0af 100%);
     box-sizing: border-box;
     margin: 0 auto;
     max-width: 1400px;
     padding: 80px 0 0 0;
     position: relative;
-    z-index: 99
+    z-index: 99;
 }
 @media only screen and (min-width:600px) {
     .ps_skills--container {
@@ -3341,6 +3343,7 @@ button:focus,
     content: "";
     display: block
 }
+
 .ps_skills--description {
     color: #eee;
     font-size: 17px;

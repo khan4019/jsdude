@@ -350,13 +350,20 @@ h1.heading {
 
 .demo-card-square>.mdl-card__title {
     color: #fff;
-    background: #4bb875;
+    background-color: #13a3a5;
+    background-image: url(../img/css.png);
 }
 
 .demo-card-square>.mdl-card__accent {
-    background: #13a3a5;
+    background-color: #13a3a5;
+    background-image: url(../img/html5.png);
 }
-
+.demo-card-square>.mdl-card--js {
+    color: #fff;
+    background-color: #13a3a5;
+    background-image: url(../img/js.png);
+}
+R  
 .square-card:hover {
     color: #24292d;
 }
