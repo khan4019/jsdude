@@ -172,14 +172,14 @@ textarea {
  */
 
 header {
-    height: 720px;
+
     position: relative;
     width: 100%;
-    background: url(../img/header.png) top center no-repeat #f5f5f5;
+    /* background: url(../img/header.png) top center no-repeat #f5f5f5; */
 }
 
 header.inner {
-    height: 720px;
+
     position: relative;
     width: 100%;
     background-position: center !important;
@@ -559,9 +559,49 @@ li.dropdown {
     display: block;
 }
 
-.main-content {
+/* .main-content {
     padding: 16px;
     margin-top: 30px;
     height: 1500px; 
+  } */
+
+  .jumbHead{
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
+
+  .jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+.jumbotron h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.mdl-card__title-text {
+    background-color: #21222238;
+    padding: 0px 10px;
+    border-radius: 10px;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    color: inherit;
+    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    overflow: hidden;
+    -webkit-transform-origin: 149px 48px;
+    -ms-transform-origin: 149px 48px;
+    transform-origin: 149px 48px;
+    margin: 0;
+}
 
