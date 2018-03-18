@@ -9,14 +9,15 @@
 	margin-bottom: 20px;
     background-color: #fff;
     border-radius: 4px;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+.Module-box:hover{    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
 
 .panel-default>.panel-heading{
 	color: #fff;
     font-size: 15.5px;
 	border-top-right-radius: 3px;
-    background-color: #4caf50;
+    background-color: #1290a4;
 }
 
 .panel-body{
@@ -36,7 +37,8 @@ ul li {
     margin: 8px 0px;
     list-style: none;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(0,0,0,.1);
+	border-bottom: 1px solid #eee;
+   
 }
 
 ul li:last-child{border:none;}
@@ -49,7 +51,7 @@ ul li:last-child{border:none;}
     09. Schedule CSS Start
 ----------------------------------*/
 .schedule-area {
-    padding: 150px 0;
+        padding: 85px 0;
     position: relative;
 }
 .schedule-table thead {
@@ -157,3 +159,238 @@ ul li:last-child{border:none;}
 .bg-success {
     background-color: #5cb85c!important;
 }
+
+.profile {
+    background: #F0F3F4;
+    padding-bottom: 82px;
+    padding-top: 65px;
+}
+
+.btn-md {
+    border-width: 0;
+    outline: none;
+    border-radius: 0;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+
+
+
+/*------------------------------------------------------------------
+12. Abt Holder / .abt-holder
+-------------------------------------------------------------------*/
+
+.abt-holder {
+    overflow: hidden;
+	    margin-left: 30px;
+}
+.abt-holder .holder {
+    width: 360px;
+}
+.abt-holder .tab {
+    display: none
+}
+.abt-holder .tabset {
+    font-size: 14px;
+    line-height: 16px;
+    color: #acacac;
+    font-weight: 600;
+    overflow: hidden;
+    margin: 0 0 49px;
+}
+.abt-holder .tabset li {
+    float: left;
+    word-spacing: 3px;
+}
+.abt-holder .tabset a {
+    padding: 0 20px 20px;
+    display: block;
+    color: #acacac;
+    border-width: 0 0 3px;
+    border-style: solid;
+    border-color: #e8e8e8;
+    -webkit-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+.abt-holder .topic-list {
+    overflow: hidden;
+    margin: 0;
+}
+.abt-holder .topic-list li {
+    overflow: hidden;
+    margin: 0 0 30px;
+	border:none;
+}
+.abt-holder .topic-list .icon {
+    width: 48px;
+    height: 48px;
+    font-size: 25px;
+    line-height: 16px;
+    color: #22313f;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #4f4f4f;
+    float: left;
+    padding: 8px 10px;
+    margin: 3px 0 0;
+    -webkit-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+.abt-holder .topic-list .txt-holder {
+    float: left;
+    width: 80%;
+    padding: 0 0 0 21px;
+}
+.abt-holder .topic-list p {
+    max-width: 400px;
+    margin: 0;
+}
+.abt-holder .img-holder {
+    width: 100%;
+}
+.abt-holder .abt-slider {
+    overflow: hidden;
+}
+.abt-holder .abt-slider .slide:before {
+    opacity: 0.5;
+    z-index: 0;
+}
+.abt-holder .abt-slider .slick-prev,
+.abt-holder .abt-slider .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    text-indent: -9999px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #22313f;
+    width: 31px;
+    height: 31px;
+    background: #22313f;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+.abt-holder .abt-slider .slick-prev:before,
+.abt-holder .abt-slider .slick-next:before {
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    content: "\eb8a";
+    font-family: 'icofont';
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-indent: 0;
+    -webkit-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+.abt-holder .abt-slider .slick-prev {
+    left: 30px;
+}
+.abt-holder .abt-slider .slick-next {
+    right: 0;
+}
+.abt-holder .abt-slider .slick-next:before {
+    content: "\eb8b";
+}
+.abt-holder .btn-primary {
+    margin: 10px 0 0;
+    color: #22313f;
+    border-color: #22313f;
+}
+.abt-holder .btn-primary:hover {
+    color: #fff;
+}
+
+
+/*------------------------------------------------------------------
+13. Heading / .heading
+-------------------------------------------------------------------*/
+
+.heading {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #1e272e;
+    margin: 0 0 10px;
+}
+/*------------------------------------------------------------------
+14. Header / .header
+-------------------------------------------------------------------*/
+
+.header {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 0 10px;
+}
+.header .title {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    display: block;
+    margin: 0 0 13px;
+    word-spacing: 4px;
+}
+.header-banner {
+    background-size: cover;
+    padding: 200px 0 20px;
+    color: rgb(216, 216, 216);
+}
+.header-banner h1 {
+    color: #f5f5f5;
+    text-transform: uppercase;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+/*------------------------------------------------------------------
+15. Heading2 / .heading2
+-------------------------------------------------------------------*/
+
+.heading2 {
+    line-height: 32px;
+    font-weight: 600;
+    color: #22313f;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.item {
+      position: relative;
+    overflow: hidden;
+}
+.item img {
+  max-width: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
