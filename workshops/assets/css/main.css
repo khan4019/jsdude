@@ -396,12 +396,13 @@ ul li {
 .facts i {
   color: #fff;
   font-size: 3em;
+      margin-top: 10px;
 }
 .facts h3 {
   color: #fff;
   text-align: center;
   font-weight: 400;
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 /* 
