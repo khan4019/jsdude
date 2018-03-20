@@ -30,7 +30,7 @@ ol, ul {
     margin-left: -15px;
 }
 
-ul li {
+.panel-body ul li {
     font-weight: 600;
     margin-bottom: 10px;
     font-size: 14.5px;
@@ -415,8 +415,8 @@ ul li:last-child{border:none;}
 
 }
 .lgx-footer-main-inner ul li {
-  color: #fff;
-      border-bottom: 1px solid #635c89;
+  color: #fff;     
+      border-bottom: 1px solid #336b85;
   text-transform: uppercase;
   line-height: 2.8rem;
   opacity: .8;
@@ -442,7 +442,7 @@ ul li:last-child{border:none;}
   color: #00acfa;
 }
 .lgx-footer-main-inner h4 {
-  color: #00acfa;
+  color: #08b1fe;
   font-size: 26px;
   margin-bottom: 25px;
   font-weight: 900;
