@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <meta http-equiv="cleartype" content="on">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>jQuery Paper Collapse Plugin Demo</title>
+    <title>Question and Answer</title>
 <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="paper-collapse.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
@@ -31,7 +31,7 @@
     </style>
 </head>
 <body>
-<h1 style="margin-top:150px" align="center">Q AND A</h1>
+<h1 style="margin-top:150px" align="center">Question & Answer</h1>
 <section>
     <div class="container">
         <div class="collapse-card">
@@ -44,6 +44,7 @@
                 Suspendisse rhoncus massa augue, eget efficitur nisi pellentesque a. Nam euismod purus eu tortor imperdiet finibus. Sed efficitur a tortor at mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce a aliquam ante, ac suscipit risus. Aenean venenatis porta arcu id iaculis. Phasellus tempus scelerisque nisl a malesuada. Vestibulum auctor scelerisque tortor eu faucibus. Quisque porttitor arcu sed nulla pharetra, sit amet sollicitudin quam suscipit. Praesent malesuada auctor metus dictum interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lectus quis elit consectetur tempor. Maecenas ac massa id tortor feugiat auctor.
             </div>
         </div>
+		
         <div class="collapse-card">
             <div class="title">
                 <i class="fa fa-play-circle fa-2x fa-fw"></i>
@@ -64,6 +65,31 @@
                 Ut eget suscipit justo. Donec egestas vel lorem eu maximus. Donec a felis mauris. Sed nec lacinia ex. Suspendisse fermentum justo erat, quis lacinia nisi tristique non. Cras malesuada, magna eu ultrices placerat, diam enim lacinia turpis, a convallis arcu ligula dapibus felis. Duis efficitur posuere nulla, nec maximus nulla finibus at. Integer quam sapien, porttitor vel dolor in, lacinia vestibulum urna. In in nisl mi. Etiam dignissim ipsum eget ultricies efficitur. Vestibulum elementum justo condimentum nisi rutrum, vitae imperdiet velit suscipit. Proin nisl enim, lobortis et porta in, venenatis ut dolor. Sed leo velit, pharetra vel ligula sed, tempus rutrum turpis. Sed pretium turpis vel elit rhoncus viverra. In arcu mi, tristique id elementum consectetur, ultricies pulvinar dolor.
             </div>
         </div>
+		
+		        <div class="collapse-card">
+            <div class="title">
+                <i class="fa fa-question-circle fa-2x fa-fw"></i>
+                <!-- <span>01:40</span> -->
+                <strong>What is the JS?</strong>
+            </div>
+            <div class="body">
+                Suspendisse rhoncus massa augue, eget efficitur nisi pellentesque a. Nam euismod purus eu tortor imperdiet finibus. Sed efficitur a tortor at mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce a aliquam ante, ac suscipit risus. Aenean venenatis porta arcu id iaculis. Phasellus tempus scelerisque nisl a malesuada. Vestibulum auctor scelerisque tortor eu faucibus. Quisque porttitor arcu sed nulla pharetra, sit amet sollicitudin quam suscipit. Praesent malesuada auctor metus dictum interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac lectus quis elit consectetur tempor. Maecenas ac massa id tortor feugiat auctor.
+            </div>
+        </div>
+		
+        <div class="collapse-card">
+            <div class="title">
+                <i class="fa fa-play-circle fa-2x fa-fw"></i>
+                <!-- <span>01:40</span> -->
+                <strong>What is CSS3?</strong>
+            </div>
+            <div class="body">
+                Aliquam nec imperdiet mi. Phasellus vel leo id orci vehicula suscipit non vel lorem. Sed feugiat dolor ut metus sagittis tempus. Donec pellentesque aliquet rutrum. Praesent suscipit felis vel arcu posuere accumsan. Aenean iaculis purus ac urna tincidunt faucibus. Cras semper imperdiet enim, sed porta lorem dignissim ac. In hac habitasse platea dictumst. Pellentesque eu lacinia ipsum. Vivamus euismod erat a euismod mollis. Suspendisse in diam ut augue rutrum lacinia. Quisque luctus, tellus non aliquet mattis, arcu erat ullamcorper nunc, sed feugiat enim turpis quis mauris. Donec lobortis sem vitae turpis finibus elementum. Pellentesque molestie magna in ante tempus varius eu quis risus.
+            </div>
+        </div>
+
+		
+		
     </div>
 </section>
 <script type="text/javascript">
@@ -79,6 +105,10 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
+</script>
+
+<script>
+(function(){!function(n){"use strict";n.fn.paperCollapse=function(i){var o;return o=n.extend({},n.fn.paperCollapse.defaults,i),n(this).click(function(){n(this).hasClass("active")?(o.onHide.call(this),n(this).removeClass("active"),n(this).find(".body").slideUp(o.animationDuration,o.onHideComplete)):(o.onShow.call(this),n(this).addClass("active"),n(this).find(".body").slideDown(o.animationDuration,o.onShowComplete))}),this},n.fn.paperCollapse.defaults={animationDuration:400,easing:"swing",onShow:function(){},onHide:function(){},onShowComplete:function(){},onHideComplete:function(){}}}(jQuery),function(n){n(function(){n(".collapse-card").paperCollapse({})})}(jQuery)}).call(this);
 </script>
 
 </body>
