@@ -21,6 +21,8 @@
     background-color: #1290a4;
 }
 
+
+
 .panel-body{
 	    padding: 15px;
 }
@@ -45,7 +47,7 @@ ol, ul {
 ul li:last-child{border:none;}
 .panel-default{border:none;}
 
-
+.even-info{margin-bottom:30px;}
 
 
 /*--------------------------------
