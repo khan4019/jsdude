@@ -478,8 +478,8 @@ button:hover, .button:hover{
     top: 0;
     min-height: 60px; 
     margin-bottom: 15px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+    background-color: transparent;
+    /* box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25); */
     z-index: 9999;
 }
 .navbar {
@@ -505,11 +505,10 @@ li {
 
 li a, .dropbtn {
     display: inline-block;
-    color: #333;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-bottom: 2px solid #fff;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
