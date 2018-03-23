@@ -8,17 +8,6 @@ html {
     line-height: 1.4;
 }
 
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
-
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -351,17 +340,17 @@ h1.heading {
 .demo-card-square>.mdl-card__title {
     color: #fff;
     background-color: #13a3a5;
-    background-image: url(../img/css.png);
+    background-image: url(../img/card-img/css.png);
 }
 
 .demo-card-square>.mdl-card__accent {
     background-color: #13a3a5;
-    background-image: url(../img/html5.png);
+    background-image: url(../img/card-img/html5.png);
 }
 .demo-card-square>.mdl-card--js {
     color: #fff;
     background-color: #13a3a5;
-    background-image: url(../img/js.png);
+    background-image: url(../img/card-img/js.png);
 }
 R  
 .square-card:hover {
@@ -585,7 +574,7 @@ li.dropdown {
 .mdl-card__title-text {
     background-color: #21222238;
     padding: 0px 10px;
-    border-radius: 10px;
+    border-radius: 3px;
     -webkit-align-self: flex-end;
     -ms-flex-item-align: end;
     align-self: flex-end;
@@ -605,3 +594,7 @@ li.dropdown {
     margin: 0;
 }
 
+.mdl-card__title-text{font-size: 21px !important;}
+
+.mdl-card__supporting-text {
+    color: rgba(0, 0, 0, 0.74)!important;}
