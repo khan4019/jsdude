@@ -1,9 +1,7 @@
 /*!
- * Mobirise v4 theme (https://mobirise.com/)
- * Copyright 2017 Mobirise
+
  */
-section {
-  background-color: #eeeeee; }
+
 
 section,
 .container,
@@ -184,13 +182,6 @@ figure[mbr-media-size] {
   display: block;
   width: 100%; }
 
-.card {
-  background-color: transparent;
-  border: none; }
-
-.card-img {
-  text-align: center;
-  flex-shrink: 0; }
 
 .media {
   max-width: 100%;
