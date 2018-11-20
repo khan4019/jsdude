@@ -315,8 +315,12 @@
 
 
 .testimonial-card .card-body {
-	text-align: center
+	text-align: center;
+    height: 255px;
+    overflow: hidden;
 }
+
+
 
 .purple-gradient {
 	background: -webkit-linear-gradient(50deg, #ff6ec4, #7873f5)!important;

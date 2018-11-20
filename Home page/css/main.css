@@ -597,3 +597,7 @@ li.dropdown {
 
 .mdl-card__supporting-text {
     color: rgba(0, 0, 0, 0.74)!important;}
+
+.videos {
+    padding-top: 80px;
+}
