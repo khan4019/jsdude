@@ -15,8 +15,7 @@
     border-radius: .25rem;
 }
 .indigo.lighten-1 {
-     background-color: #f01675!important; 
-   /* background-image: linear-gradient(110deg, #ff007a 0%, #ff9a44 100%); */
+    background-color: #00d3d3!important;
 }
 
 .card.card-image {
@@ -337,7 +336,7 @@
 
 .aqua-gradient {
 	background: -webkit-linear-gradient(50deg, #2096ff, #05ffa3)!important;
-	background: linear-gradient(40deg, #2096ff, #05ffa3)!important
+    background: linear-gradient(40deg, #007ff6, #01cafe)!important;
 }
 
 .blue-gradient {
