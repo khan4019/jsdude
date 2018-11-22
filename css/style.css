@@ -2025,7 +2025,7 @@ img.pull-right {
   top: -60px;
   width: 100%;
   z-index: 1; 
-  border-radius: 15px;}
+  border-radius: 20px;}
   .ts-newsletter:before, .ts-newsletter:after {
     position: absolute;
     left: 0;
@@ -2036,7 +2036,7 @@ img.pull-right {
     width: 100%;
     background-position: center;
     background-size: cover; 
-  border-radius: 15px;}
+  border-radius: 20px;}
   .ts-newsletter:after {
     background: url(img/subscribe_slice_right.png) no-repeat;
     left: auto;
