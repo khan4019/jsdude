@@ -110,6 +110,9 @@ a.read-more:hover {
 	background: #161362;
 	color: #fff;
 }
+.section-title {
+	font-size: 40px !important;
+}
 
 section,
 .section-padding {
